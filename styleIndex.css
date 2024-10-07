@@ -1,0 +1,52 @@
+*{
+    background-color: #222222;
+    color: #cccccc;
+}
+ul{
+    list-style-type: square;
+}
+.miniaturaClases{
+
+    display: inline;
+}
+.miniaturaClases img{
+    width: 300px;
+}
+#cursos{
+    margin-left: 10%;
+    padding-right: 10%;
+}
+main{
+    position: absolute;
+    width: 70%;
+}
+
+aside{
+    margin-left: 75%;
+    position: absolute;
+    width: 30%
+}
+aside img{
+    width: 200px;
+}
+footer{
+    position: relative;
+    margin-top: 76%;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: -25px;
+}
+header section h2{
+
+    text-align: center;
+    font-size: 30px;
+}
+
+header section p{
+
+    text-align: center;
+    font-size: 40px;
+}
