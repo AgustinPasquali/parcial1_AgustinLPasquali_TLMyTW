@@ -1,0 +1,123 @@
+*{
+    background-color: #222222;
+    color: #cccccc;
+}
+
+
+header nav{
+    margin-left: -10px;
+    width: 110%;
+    position: fixed;
+    margin-top: -15px;
+
+    background-color: #333333;
+    height: 45px;
+    z-index: 1000;
+}
+header nav ul{
+    background-color: inherit;
+    text-align: center;
+    margin-left: -17%;
+}
+header nav li{
+    display: inline;
+    margin-left: 5%;
+    background-color: inherit;
+    
+}
+header nav a{
+    background-color: inherit;
+
+}
+#titleClases{
+    padding-top: 40px;
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+#titleClases p{
+    text-align: center;
+}
+
+#clasesCanto{
+    width: 65%;
+}
+
+#clasesCanto .fotosEstudiantes{
+    width: 30%;
+    left: 70%;
+    position: absolute;
+    top:33%
+    
+}
+#clasesCanto section img{
+    width: 270px;
+    height: 190px;
+}
+
+#clasesGuitarra .fotosEstudiantes{
+    width: 30%;
+}
+#clasesGuitarra .fotosEstudiantes{
+    width: 30%;
+}
+#panelDerecho{
+    width: 70%;
+    left: 30%;
+    position: absolute;
+    top:123%
+}
+.fotosEstudiantes *{
+    margin: 1%;
+    width: 270px;
+    height: 190px;
+}
+
+#clasesBateria{
+    width: 65%;
+}
+
+#clasesBateria .fotosEstudiantes{
+    width: 30%;
+    left: 70%;
+    position: absolute;
+    top:220%
+    
+}
+#clasesBateria section img{
+    width: 270px;
+    height: 190px;
+}
+#calendar{
+    width: 100vw;
+    text-align: center;
+    margin-left: 10%;
+}
+#calendar caption{
+    font-size: 35px;
+    text-align: center;
+    color: #eEEEEe;
+}
+thead{
+    background-color: #aaaaaa;
+}
+thead tr{
+    background-color: inherit;
+}
+thead tr th{
+    font-weight: 900;
+    font-size: 20px;
+    color: #222222;
+    background-color: inherit;
+}
+th{
+    text-align: left;
+    padding: 0 20px;
+}
+tbody{
+    color: #aaaaaa;
+}
+.semana{
+    color:#eEEEEe;
+}

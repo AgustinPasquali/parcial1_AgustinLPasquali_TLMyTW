@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Escuela de Rock</title>
+
+    <link rel="stylesheet" href="styleContacto.css">
 </head>
 <body>
-    <header>
+    <header id="top">
         <nav>
             <ul>
                 <li><a href="index.html">home</a></li>
@@ -15,12 +17,97 @@
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
-        <section>
+        <section id="contactanos">
             <h1>
-
+                Contactanos
             </h1>
-            <p>
+            <form action="">
+                <label for="nombre">Nombre: </label>
+                <input id="nombre" type="text" name="nombre" placeholder="Charly">
+                <SPAN class="superior">
+                    <label for="apellido">Apellido: </label>
+                    <input id="apellido" type="text" name="apellido" placeholder="Garcia">
+                </SPAN>
+                    <br><br>
+                <label for="localidad">Localidad:</label>
+                <input id="localidad" type="text" name="localidad" placeholder="Nuestros corazones">
+                <Span>
 
-            </p>
+                    <label for="codigoDescuento">Codigo de descuento: </label>
+                    <input id="codigoDescuento" type="text" name="codigoDescuento" placeholder="CRACKDELOSCRACKS">
+                </Span>
+                    <br><br>
+              
+                <fieldset>
+                    <legend>Cual es tu experiencia tocando tu instrumento:</legend>
+                    <input id="exp1" type="radio" name="experiencia">
+                    <label for="exp1">Principiante</label>
+                    <br>
+                    <input id="exp2" type="radio" name="experiencia">
+                    <label for="exp2">Algo toco</label>
+                    <br>
+                    <input id="exp3" type="radio" name="experiencia">
+                    <label for="exp3">Le enseñe a Hendrix la pentatonica</label>
+                </fieldset>
+                <fieldset id="fieldsetIzq">
+                    <legend>Que instrumento/s tocas?</legend>
+                    <input id="guitarraCheck" type="checkbox" name="instrumentos">
+                    <label for="guitarraCheck">Guitarra</label>
+                    <br>
+                    <input id="cantoCheck" type="checkbox" name="instrumentos">
+                    <label for="cantoCheck">Canto</label>
+                    <br>
+                    <input id="bateriaCheck" type="checkbox" name="instrumentos">
+                    <label for="bateriaCheck">Bateria</label>
+                </fieldset><br>
+                <label for="hook">Como nos conociste?</label><br>
+                <input list="hookWay" id="hook" name="hook" placeholder="La ultima es la mejor">
+                <datalist id="hookWay">
+                    <option value="Redes Sociales">
+                    <option value="Me conto un amigo">
+                    <option value="Lo vi por la calle">
+                    <option value="Un estudiante tomo la pagina como referencia para un parcial">
+                </datalist><br><br>
+                <label for="motivo">Cual es el motivo de la consulta?</label><br>
+                <textarea id="motivo" name="motivo" rows="4" cols="50">
+                </textarea><br><br>
+                <input type="submit">
+            </form>
         </section>
+        <section id="infoContacto">
+            <h2>Informacion de contacto:</h2>
+            <h5>Dirección</h5>
+            <p>
+                Av. Triunvirato 4612,1er piso.Capital federal
+            </p>
+            <h5>
+                Horarios de atención:
+            </h5>
+            <p>
+                Lunes a Viernes de 15 a 20hs. Sábados de 10 a 15hs.
+            </p>
+            <h5>
+                Teléfono:
+            </h5>
+            <p>
+                +54 11 2595-8088
+            </p>
+           <a href="https://www.facebook.com/RockSchoolArgentina" target="_blank">
+               <h5>Facebook</h5>
+           </a>
+           <a href="https://www.instagram.com/rockschoolargentina/" target="_blank">
+               <h5>Instagram</h5>
+           </a>
+        </section>
+        <footer>
+            <span id="totop"><a href="#top">Ir al principio de la pagina</a></span>
+            <section>
+                <h4>Informacion del autor</h4>
+                <ul>
+                    <li>Agustin L. Pasquali</li>
+                    <li><a href=""></a>agustinpasquali@gmail.com</li>
+                    <li><a href="https://www.linkedin.com/in/agustin-pasquali/">Perfil profesional</a></li>
+                </ul>
+            </section>
+        </footer>
     </header>

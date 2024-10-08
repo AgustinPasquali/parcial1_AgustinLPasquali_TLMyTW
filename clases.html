@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Escuela de Rock</title>
+
+    <link rel="stylesheet" href="./styleClases.css">
 </head>
 <body>
     <header>
@@ -15,25 +17,27 @@
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
-        <section>
+        <section id="titleClases">
             <h1>
-
+                Nuestros cursos
             </h1>
             <p>
-
+                Aqui podras encontrar en detalle, que significa para nosotros una clase.
+                Los precios no se enseñan en la web ya que creemos que cada caso es particular y depende de la exigencia que requiera el estudiante, por lo que se le ofrecera un presupuesto luego de una primera entrevista.
             </p>
         </section>
     </header>
     <main>
         <article id="clasesCanto">
-            <h2>
-                Clases de Canto
-            </h2>
-            <a href="#programaGeneralCanto">
-                <p>
-                    Programa General
-                </p>
-            </a>
+
+                <h2>
+                    Clases de Canto
+                </h2>
+                <a href="#programaGeneralCanto">
+                    <p>
+                        Programa General
+                    </p>
+                </a>
             <p>
                 Aprender con nosotros es buscar juntos la forma de que disfrutes y te sientas a gusto.
                 <br>
@@ -97,16 +101,33 @@
                     </li>
                 </ol>
             </section>
+            <section class="fotosEstudiantes">
+                <img src="./IMG/cantanteDestacado1.jpg" alt="Ivan Sanchez, Hizo una gran performance cantando un tema de salsa">
+                <br>
+                <img src="./IMG/cantanteDestacado2.jpg" alt="Juana Menghi, una voz consagrada en la musica clasica y la opera, nos deleito con este gran numero a tan solo 1 año de haber empezado a tomar clases con nosotros.">
+                <br>
+                <img src="./IMG/cantanteDestacado3.jpeg" alt="de ella no nos acordamos el nombre">
+            </section>
+
         </article>
         <article id="clasesGuitarra">
-            <h2>
-                Clases de guitarra
-            </h2>
-            <a href="#programaGeneralGuitarra">
-                <p>
-                    Programa general
-                </p>
-            </a>
+            <section class="fotosEstudiantes">
+                <img src="./IMG/guitarristaDestacada1.jpeg" alt="Emma Gaitan, Es mas linda que buena guitarrista pero garpaba poner la foto">
+                <br>
+                <img src="./IMG/guitarristaDestacada2.jpeg" alt="Lucho Papern, virtuosismo y calidad son sus sinonimos, un guitarrista de lujo">
+                <br>
+                <img src="./IMG/guitarristaDestacada3.jpeg" alt="Mike Ekim, el guitarrista mas extravagante del instituto, sus sonidos abstractos y busqueda poco ortodoxa, lo convierten en un miembro con honores">
+            </section>
+            <div id="panelDerecho">
+
+                <h2>
+                    Clases de guitarra
+                </h2>
+                <a href="#programaGeneralGuitarra">
+                    <p>
+                        Programa general
+                    </p>
+                </a>
                 <p>
                 Aprender con nosotros es buscar juntos la forma de que disfrutes y te sientas a gusto.
             </p>
@@ -115,7 +136,7 @@
                     Clases con objetivos y abordajes personalizados, respetando tus necesidades.
                 </li>
                 <li>
-                   Podes probar libremente, cambiar de profesor o de instrumento en cualquier momento. Vas a estar rodeado de distintos instrumentos con un equipo de profesores a tu disposición. 
+                    Podes probar libremente, cambiar de profesor o de instrumento en cualquier momento. Vas a estar rodeado de distintos instrumentos con un equipo de profesores a tu disposición. 
                 </li>
                 <li>
                     Somos Profesionales, tenemos 30 años de experiencia y el mejor equipo de profesores del país.
@@ -137,7 +158,7 @@
                 <ol>
                     <li>
                         Postura y Posición de las manos.
-
+                        
                     </li>
                     <li>
                         Partes y cuidados del instrumento.
@@ -162,13 +183,14 @@
                     </li>
                     <li>
                         Equipos y accesorios.
-                        </li>
+                    </li>
                     <li>
                         Expresión Creativa ( Arreglos, improvisaciones, Composiciones).
                     </li>
                 </ol>
-
+                
             </section>
+        </div>
         </article>
         <article id="clasesBateria">
             <h2>
@@ -251,7 +273,71 @@
                     </li>
                 </ol>
             </section>
+            <section class="fotosEstudiantes">
+                <img src="./IMG/bateristaDestacado2.jpeg" alt="Giuliana Marcella, una Baterista con todas las letras, su pegada es excelente y su tecnica digna de admiracion">
+                <br>
+                <img src="./IMG/bateristaDestacado3.jpeg" alt="Tonny, el Pucho, Ramirez, el baterista mas rock de nuestro instituto.">
+                <br>
+                <img src="./IMG/bateristaDestacado5.jpeg" alt="Este baterista nisiquiera concurre al establecimiento, pero veniamos poniendo 3 fotos en cada seccion asi que mantuvimos la cabala. Elegimos creer!">
+            </section>
         </article>
+        <section id="calendar">
+            <table border="1">
+                <caption><- Calendario 2024 -></caption>
+                <thead>
+                    <tr>    
+                        <th>
+                            ...
+                        </th>
+                        <th>Octubre</th>
+                        <th>Noviembre</th>
+                        <th>Diciembre</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <th class="semana">1° Semana</th>
+                        <th>Muestra de Canto -Jue 03 19Hs-</th>
+                        <th>Music Gym -Mar 05 15Hs- </th>
+                        <th>Music Elements -Vie 06 09Hs-</th>
+                    </tr>
+                    <tr>
+                        <th class="semana">2° Semana</th>
+                        <th>Music Gym -Mar 14 15Hs-</th>
+                        <th>Music Elements -Vie 15 09Hs-</th>
+                        <th>Music Club -Vie 13 y Sab 14 21Hs-</th>
+                    </tr>
+                    <tr>
+                        <th class="semana">3° Semana</th>
+                        <th>Music Elements -Vie 25 09Hs-</th>
+                        <th>Muestra de Bateria - Jue 21 19Hs-</th>
+                        <th>Music Gym -Mar 17 15Hs-</th>
+                    </tr>
+                    <tr>
+                        <th class="semana">4° Semana</th>
+                        <th>Muestra de Guitarra -Jue 24 19Hs-</th>
+                        <th>Music Gym -Mar 25 15Hs-</th>
+                        <th>Cerrado por Vacaciones</th>
+                    </tr>
+                </tbody>
+                </table>
+                
+
+        </section>
     </main>
+    <footer>
+        <nav>
+            
+        </nav>
+        <section>
+            <h4>Informacion del autor</h4>
+            <ul>
+                <li>Agustin L. Pasquali</li>
+                <li><a href=""></a>agustinpasquali@gmail.com</li>
+                <li><a href="https://www.linkedin.com/in/agustin-pasquali/">Perfil profesional</a></li>
+            </ul>
+        </section>
+    </footer>
 
 </body>
